@@ -1,0 +1,82 @@
+@startuml scale-1.5
+header head
+title PlantUML
+
+Hello <|-- World
+
+legend
+    Hello World
+end legend
+footer foot
+@enduml
+
+
+@startuml
+title Creole-markdown-patterns
+
+note left
+    --見出し--
+    = 見出し１
+    == 見出し２
+    === 見出し３
+
+    --番号なしリスト--
+    * リスト１
+    * リスト２
+    ** リスト２－１
+    * リスト３
+
+    --番号付き--
+    # 番号付きリスト１
+    # 番号付きリスト２
+    ## 番号付きリスト２－１
+    # 番号付きリスト３
+
+    --装飾--
+    * **太字**
+    * //イタリック//
+    * ""等幅フォント(monospace)""
+    * --取り消し線--
+    * __下線__
+
+    --テーブル--
+    |= |= Column1 |= Column2 |
+    |1 |Value1-1  |Value1-2  |
+    |2 |Value2-1  |Value2-2  |
+
+    --HTML--
+    * <color:red>色名指定</color>
+    * <color:#00FF00>カラーコード指定</color>
+    * <back:skyblue>背景色</back>
+    * <size:18>フォントサイズ</size>
+    * <b>太字</b>
+
+    --木構造--
+    |_build.gradle
+    |_src
+    |_main
+    |_java
+    |_**bold**
+    |_--strike--
+    |_//itaric//
+    |___underline__
+    |_""monospace""
+    |_test
+
+    --Unicode--
+    * <U+20BB7>
+
+    --Escape--
+    * **これは太字になる**
+    * ~**これは太字にならない**
+
+    --水平線--
+    --タイトルを挟める--
+    ----
+    ==タイトルを挟める==
+    ====
+    ..タイトルを挟める..
+    ....
+end note
+
+@enduml

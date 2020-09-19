@@ -1,0 +1,10 @@
+@startuml
+
+title vector
+
+A ->x B
+A ->> C
+A -// D
+A -\\ E
+
+@enduml

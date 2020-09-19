@@ -1,0 +1,20 @@
+@startuml
+
+title comment
+
+A -> B: message
+A <-- B: answer
+
+' 分岐
+alt condition
+    A -> C: true
+else
+    A -> D: false
+end
+
+' ループ
+loop i < 10
+    A -> E: insert(i)
+end
+
+@enduml

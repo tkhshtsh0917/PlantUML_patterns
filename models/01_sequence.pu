@@ -1,0 +1,8 @@
+@startuml
+
+title sequence
+
+A -> B: message
+A <-- B: answer
+
+@enduml

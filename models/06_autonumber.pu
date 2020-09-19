@@ -1,0 +1,11 @@
+@startuml
+
+title autonumber
+
+autonumber
+A ->x B
+A ->> C
+A -// D
+A -\\ E
+
+@enduml

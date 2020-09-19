@@ -1,0 +1,18 @@
+@startuml
+
+title symbols
+
+' 定義
+actor A
+boundary B
+control C
+database D
+entity E
+
+' 処理
+A -> B
+A -> C
+A -> D
+A -> E
+
+@enduml
